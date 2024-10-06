@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembelian Susu</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <h1>Pembelian Susu</h1>
+
+    <table class="harga-susu">
+        <thead>
+            <tr>
+                <th>Nama Susu</th>
+                <th>Kemasan</th>
+                <th>Ukuran</th>
+                <th>Harga</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-label="Nama Susu">Dancow</td>
+                <td data-label="Kemasan">Kardus</td>
+                <td data-label="Ukuran">Besar</td>
+                <td data-label="Harga">Rp 80.000</td>
+            </tr>
+            <tr>
+                <td data-label="Nama Susu">Dancow</td>
+                <td data-label="Kemasan">Kardus</td>
+                <td data-label="Ukuran">Sedang</td>
+                <td data-label="Harga">Rp 55.000</td>
+            </tr>
+            <tr>
+                <td data-label="Nama Susu">Dancow</td>
+                <td data-label="Kemasan">Kardus</td>
+                <td data-label="Ukuran">Kecil</td>
+                <td data-label="Harga">Rp 30.000</td>
+            </tr>
+            <tr>
+                <td data-label="Nama Susu">Milo</td>
+                <td data-label="Kemasan">Kardus</td>
+                <td data-label="Ukuran">Besar</td>
+                <td data-label="Harga">Rp 65.000</td>
+            </tr>
+            <tr>
+                <td data-label="Nama Susu">Milo</td>
+                <td data-label="Kemasan">Kaleng</td>
+                <td data-label="Ukuran">Besar</td>
+                <td data-label="Harga">Rp 70.000</td>
+            </tr>
+            <tr>
+                <td data-label="Nama Susu">Milo</td>
+                <td data-label="Kemasan">Sachet</td>
+                <td data-label="Ukuran">Kecil</td>
+                <td data-label="Harga">Rp 25.000</td>
+            </tr>
+            <tr>
+                <td data-label="Nama Susu">Sustagen</td>
+                <td data-label="Kemasan">Kardus</td>
+                <td data-label="Ukuran">Besar</td>
+                <td data-label="Harga">Rp 100.000</td>
+            </tr>
+            <tr>
+                <td data-label="Nama Susu">Sustagen</td>
+                <td data-label="Kemasan">Kaleng</td>
+                <td data-label="Ukuran">Besar</td>
+                <td data-label="Harga">Rp 90.000</td>
+            </tr>
+            <tr>
+                <td data-label="Nama Susu">Sustagen</td>
+                <td data-label="Kemasan">Sachet</td>
+                <td data-label="Ukuran">Kecil</td>
+                <td data-label="Harga">Rp 35.000</td>
+            </tr>
+            <tr>
+                <td data-label="Nama Susu">Ovaltine</td>
+                <td data-label="Kemasan">Kardus</td>
+                <td data-label="Ukuran">Besar</td>
+                <td data-label="Harga">Rp 70.000</td>
+            </tr>
+            <tr>
+                <td data-label="Nama Susu">Ovaltine</td>
+                <td data-label="Kemasan">Kaleng</td>
+                <td data-label="Ukuran">Besar</td>
+                <td data-label="Harga">Rp 60.000</td>
+            </tr>
+            <tr>
+                <td data-label="Nama Susu">Ovaltine</td>
+                <td data-label="Kemasan">Sachet</td>
+                <td data-label="Ukuran">Kecil</td>
+                <td data-label="Harga">Rp 30.000</td>
+            </tr>
+            <tr>
+                <td data-label="Nama Susu">Promina</td>
+                <td data-label="Kemasan">Kardus</td>
+                <td data-label="Ukuran">Besar</td>
+                <td data-label="Harga">Rp 120.000</td>
+            </tr>
+            <tr>
+                <td data-label="Nama Susu">Promina</td>
+                <td data-label="Kemasan">Kaleng</td>
+                <td data-label="Ukuran">Besar</td>
+                <td data-label="Harga">Rp 110.000</td>
+            </tr>
+            <tr>
+                <td data-label="Nama Susu">Promina</td>
+                <td data-label="Kemasan">Sachet</td>
+                <td data-label="Ukuran">Kecil</td>
+                <td data-label="Harga">Rp 45.000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="input-container">
+        <label for="nama-susu">Nama susu:</label>
+        <select name="nama-susu" id="nama-susu">
+            <option value="0">========== Nama Susu ==========</option>
+            <option value="1">Dancow</option>
+            <option value="2">Milo</option>
+            <option value="3">Sustagen</option>
+            <option value="4">Ovaltine</option>
+            <option value="5">Promina</option>
+        </select>
+
+        <label>Kemasan:</label>
+        <div class="radio-group">
+            <label><input type="radio" name="radio-kemasan" value="Kardus"> Kardus</label>
+            <label><input type="radio" name="radio-kemasan" value="Kaleng"> Kaleng</label>
+            <label><input type="radio" name="radio-kemasan" value="Sachet"> Sachet</label>
+        </div>
+
+        <label>Ukuran:</label>
+        <div class="radio-group">
+            <label><input type="radio" name="radio-ukuran" value="Besar"> Besar</label>
+            <label><input type="radio" name="radio-ukuran" value="Sedang"> Sedang</label>
+            <label><input type="radio" name="radio-ukuran" value="Kecil"> Kecil</label>
+        </div>
+
+        <label for="input-jumlah-beli">Jumlah Beli:</label>
+        <input type="text" id="input-jumlah-beli" autocomplete="off" disabled>
+
+        <label for="input-bayar">Bayar:</label>
+        <input type="text" id="input-bayar" autocomplete="off" disabled>
+
+        <button class="btn-mulai">M U L A I</button>
+        <button class="btn-hitung" disabled>H I T U N G</button>
+
+        <p id="hasil-harga-susu"></p>
+        <p id="hasil-total-beli"></p>
+        <p id="hasil-bayar"></p>
+        <p id="hasil-kembali"></p>
+    </div>
+
+    <script src="JS/script.js">
+    </script>
+</body>
+</html>
